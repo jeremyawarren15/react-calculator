@@ -1,0 +1,10 @@
+.calculator {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    height: 100vh;
+}
+
+.display {
+    grid-column: 1/5;
+}
